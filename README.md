@@ -1,4 +1,5 @@
-Teste para uma vaga de Desenvolvedor React. Como recrutador e Dev Lead, estou buscando alguém com conhecimento prático em React, JavaScript moderno (ES6+), controle de estado, consumo de APIs e boas práticas de componentização.
+O código desse repositório seria o resultado esperado para o teste abaixo! <br>
+Tente fazer sem olhar e depois compare e use-o para comparar com o código criado por você!
 
 ---
 
@@ -34,6 +35,4 @@ Você deve implementar uma pequena aplicação React com as seguintes especifica
 
 ### 📤 Entrega
 
-Quando estiver pronto, cole aqui o seu código completo ou compartilhe um repositório (ex: GitHub). Assim que receber, farei uma avaliação como se estivesse decidindo te contratar ou não.
-
-Está pronto para começar?
+Quando estiver pronto, compartilhe o repositório (GitHub, GitLab, etc) para que seja possivel ser feita avaliação.
