@@ -1,5 +1,5 @@
 O código desse repositório seria o resultado esperado para o teste abaixo! <br>
-Tente fazer sem olhar e depois compare e use-o para comparar com o código criado por você!
+Tente fazer sem olhar e depois compare com o código criado por você!
 
 ---
 
