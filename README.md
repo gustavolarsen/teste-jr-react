@@ -1,42 +1,39 @@
-# Projeto Usuário
-
-## Descrição
-
-O projeto **Usuário** é uma aplicação desenvolvida para gerenciar informações de usuários. Ele foi criado com o objetivo de demonstrar boas práticas de desenvolvimento e organização de código.
-
-## Tecnologias Utilizadas
-
-- **React**: Biblioteca para construção de interfaces de usuário.
-- **JavaScript**: Linguagem de programação principal.
-- **CSS**: Estilização da aplicação.
-
-## Como Executar o Projeto
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/gustavolarsen/teste-jr-react.git
-   ```
-2. Navegue até o diretório do projeto:
-   ```bash
-   cd teste-jr-react
-   ```
-3. Instale as dependências:
-   ```bash
-   npm install
-   ```
-4. Inicie o servidor de desenvolvimento:
-   ```bash
-   npm start
-   ```
-
-## Contribuição
-
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
-
-## Licença
-
-Este projeto está licenciado sob a [MIT License](LICENSE).
+Teste para uma vaga de Desenvolvedor React. Como recrutador e Dev Lead, estou buscando alguém com conhecimento prático em React, JavaScript moderno (ES6+), controle de estado, consumo de APIs e boas práticas de componentização.
 
 ---
 
-Desenvolvido por [gustavolarsen](https://github.com/gustavolarsen).
+### 🧪 **Teste Técnico – Vaga Desenvolvedor React Júnior**
+
+Você deve implementar uma pequena aplicação React com as seguintes especificações:
+
+#### 📝 **Requisitos Funcionais**
+
+1. A aplicação deve exibir uma lista de usuários vinda da API pública: [`https://jsonplaceholder.typicode.com/users`](https://jsonplaceholder.typicode.com/users)
+2. Cada item da lista deve exibir:
+
+   - Nome do usuário
+   - Email
+   - Cidade (dentro de `address.city`)
+
+3. Deve existir um campo de busca para filtrar os usuários por nome (case insensitive).
+4. Ao clicar em um usuário, deve abrir um modal com os detalhes completos dele (pode ser uma div estilizada, não precisa de biblioteca externa).
+5. A listagem deve ser responsiva.
+
+#### ⚙️ **Requisitos Técnicos**
+
+- Usar **React com Hooks**
+- Pode usar `create-react-app` ou `Vite`
+- Organize os componentes em pastas se achar necessário
+- Usar `fetch` ou `axios`
+- Código limpo e legível
+- Bonus: usar TypeScript
+
+#### ⏱️ **Tempo estimado**: 1h a 1h30
+
+---
+
+### 📤 Entrega
+
+Quando estiver pronto, cole aqui o seu código completo ou compartilhe um repositório (ex: GitHub). Assim que receber, farei uma avaliação como se estivesse decidindo te contratar ou não.
+
+Está pronto para começar?
