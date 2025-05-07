@@ -1,4 +1,4 @@
-import React from "react";
+import "./SearchBar.css";
 
 const SearchBar = ({ onSearch, onClear }) => {
   const handleInputChange = (event) => {

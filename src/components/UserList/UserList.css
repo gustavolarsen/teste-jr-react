@@ -1,0 +1,9 @@
+.userItem {
+  padding: 5px;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+.userItem:hover {
+  background-color: #333;
+}

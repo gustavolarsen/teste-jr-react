@@ -2,19 +2,28 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import { getUsers } from "./services/api";
 import Header from "./components/Header";
-import SearchBar from "./components/SearchBar";
-import UsersList from "./components/UserList";
+import SearchBar from "./components/SearchBar/SearchBar";
+import UsersList from "./components/UserList/UserList";
 
 function App() {
   const [users, setUsers] = useState([]);
-  const [allUsers, setAllUsers] = useState([]); // Estado para armazenar todos os usuários
+  const [allUsers, setAllUsers] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const fetchUsers = async () => {
-      const data = await getUsers();
-      setUsers(data);
-      setAllUsers(data); // Armazena os dados originais
+      try {
+        setLoading(true);
+        const data = await getUsers();
+        setUsers(data);
+        setAllUsers(data);
+      } catch (error) {
+        console.error("Error fetching users:", error);
+      } finally {
+        setLoading(false);
+      }
     };
+
     fetchUsers();
   }, []);
 
@@ -33,7 +42,11 @@ function App() {
     <div className="App">
       <Header />
       <SearchBar onSearch={handleSearch} onClear={clearUsers} />
-      <UsersList users={users} />
+      {loading ? (
+        <div className="loading">Loading...</div>
+      ) : (
+        <UsersList users={users} />
+      )}
     </div>
   );
 }
